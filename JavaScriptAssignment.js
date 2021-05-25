@@ -67,7 +67,7 @@ console.log("Area of 25 plots in Acres : "
     console.log(maximum);
     console.log(minimum);
 
-    //UC2
+    //UC4
     let coin=0;
     coin = Math.floor(Math.random()*10)%2;
     if(coin == 1){
@@ -75,7 +75,18 @@ console.log("Area of 25 plots in Acres : "
     }else
     console.log("Tail")
 
-    
+    //UC3
+    function checkLeapYear(year){
+     if
+         ((year%400==0) || (year %4 ==0 && year % 100!==0))
+    console.log(year + " is a leap year");
+      else 
+    console.log(year + " is not aleap year");
+    }
+
+
+    checkLeapYear(2006);
+    checkLeapYear(2024);
     
 
     
