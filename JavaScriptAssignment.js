@@ -49,3 +49,25 @@ let areaInMeterSquare = lengthInMeters * breadthInMeters
 let areaInAcres = areaInMeterSquare * METER_SQUARE_TO_ACRE_CONVERSION
 console.log("Area of 25 plots in Acres : "
     + (25 * areaInAcres).toFixed(2) + " acres");
+
+    //Selection UC1
+    let minimum=0;
+    let maximum=0;
+    let nosize=5;
+    let output;
+    for (let no=0;no<noSize;no++){
+        output=Math.floor(Math.random()*1000)
+        if(100<output<1000){
+            if (output >maximum)
+             maximum=output;
+            else 
+            minimum=output;
+        }else console.log("No. are not valid")
+    }
+    console.log(maximum);
+    console.log(minimum);
+
+    
+    
+
+    
