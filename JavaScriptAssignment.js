@@ -67,6 +67,14 @@ console.log("Area of 25 plots in Acres : "
     console.log(maximum);
     console.log(minimum);
 
+    //UC2
+    let coin=0;
+    coin = Math.floor(Math.random()*10)%2;
+    if(coin == 1){
+        console.log("Head")
+    }else
+    console.log("Tail")
+
     
     
 
