@@ -21,3 +21,31 @@ sum += Math.floor(Math.random()*100)
 } 
 let avg=sum/noSize;
 console.log("Sum "+sum +"  avg " +avg);
+
+//UC5
+//5-1
+const CONVERSION_OF_INCH_INTO_FEET = 1 / 12;
+
+
+let inches = 42
+let feet = inches * CONVERSION_OF_INCH_INTO_FEET
+console.log(inches + " inche = " + feet + " ft.")
+
+//5-2
+const FEET_TO_METERS_CONVERSION = 1 / 3.2808;
+
+let lengthInFeet = 60
+let breadthInFeet = 40
+let lengthInMeters = lengthInFeet * FEET_TO_METERS_CONVERSION
+let breadthInMeters = breadthInFeet * FEET_TO_METERS_CONVERSION
+console.log("Plot Dimension in Feet:- " + lengthInFeet
+    + " Feet X " + breadthInFeet + " Feet" + " Into Meters: " + "Plot Dimension in Meters:- " + lengthInMeters.toFixed(2)
+    + " meters X " + breadthInMeters.toFixed(2) + " meters");
+
+// Calculate area of 25 such plots in acres
+const METER_SQUARE_TO_ACRE_CONVERSION = 1 / 4046.86;
+
+let areaInMeterSquare = lengthInMeters * breadthInMeters
+let areaInAcres = areaInMeterSquare * METER_SQUARE_TO_ACRE_CONVERSION
+console.log("Area of 25 plots in Acres : "
+    + (25 * areaInAcres).toFixed(2) + " acres");
