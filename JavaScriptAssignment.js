@@ -119,3 +119,25 @@ console.log("Area of 25 plots in Acres : "
     console.log("Eight")
     else 
     console.log("Nine")
+
+    //Selection UC6
+    function weekDay(day){
+        if(day == 1)
+        console.log("Monday")
+        else if(day == 2)
+        console.log("Tuesday")
+        else if(day == 3)
+        console.log("Wednesday")
+        else if(day == 4)
+        console.log("Thrusday")
+        else if(day == 5)
+        console.log("Friday")
+        else if(day == 6)
+        console.log("Saturday")
+        else if(day == 7)
+        console.log("Sunday")
+        else
+        console.log("Not valid")
+    }
+    weekDay(7);
+    weekDay(3);
