@@ -348,3 +348,17 @@ console.log("Area of 25 plots in Acres : "
     getPrimeFactors(5);
     getPrimeFactors(9);
     getPrimeFactors(14);
+
+    //While UC1
+    function getPowerSeries(n){
+        let prod = 1;
+        let count=0;
+        while (prod <= 256 && count<=n) {
+            console.log("2^"+count+"="+prod);
+            prod =prod*2;
+            count++;
+        }
+    }
+    getPowerSeries(4);
+    getPowerSeries(7);
+    getPowerSeries(14);
