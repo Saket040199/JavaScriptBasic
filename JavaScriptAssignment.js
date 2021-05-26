@@ -324,3 +324,15 @@ console.log("Area of 25 plots in Acres : "
     getPrime(9);
     getPrime(18);
     getPrime(21);
+
+    //ForLoop UC5
+    function getFactorial(num){
+        let product=1;
+        for (let i = 1; i <= num; i++) {
+            product=product*i;
+        }
+        console.log(num+"! = "+product);
+    }
+    getFactorial(5);
+    getFactorial(9);
+    
