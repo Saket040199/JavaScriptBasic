@@ -218,3 +218,20 @@ console.log("Area of 25 plots in Acres : "
     numCheck(7);
     numCheck(2);
     numCheck(420);
+
+    //Switch UC2
+    function weekCheck(day){
+        switch(day){
+            case 7: console.log("Sunday"); break;
+            case 1: console.log("Monday"); break;
+            case 2: console.log("Tuesday"); break;
+            case 3: console.log("Wednesday"); break;
+            case 4: console.log("Thursday"); break;
+            case 5: console.log("Friday"); break;
+            case 6: console.log("Saturday"); break;
+            default: console.log("No Such Day");
+        }
+    }
+    weekCheck(7);
+    weekCheck(2);
+    weekCheck(24);
