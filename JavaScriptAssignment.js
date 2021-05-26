@@ -408,3 +408,24 @@ console.log("Area of 25 plots in Acres : "
     }while(money>0 && money<200);
     console.log("You have Rs "+money+" in the end");
     console.log("You won "+winCount+" out of "+betsPlaced+" bets");
+
+    //Function UC1
+    function getTemp(input,temp){
+        let convertedTemp=0;
+        switch(input){
+            case "degreeC":{
+                console.log("Converting to Fahrenheit");
+                convertedTemp=(temp*(9/5)) +32;
+                console.log(temp+" deg C = "+convertedTemp+" degF");
+                break;
+            }
+            case "degreeF":{
+                console.log("Converting to Celcius");
+                convertedTemp=((temp-32)*(5/9));
+                console.log(temp+" deg F = "+convertedTemp+" degC");
+                break;
+            }
+        }
+    }
+    getTemp("degreeC",Math.floor(Math.random()*100));
+    getTemp("degreeF",Math.floor((Math.random()*181)+32));
