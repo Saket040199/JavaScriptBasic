@@ -265,3 +265,15 @@ console.log("Area of 25 plots in Acres : "
     unitConversion(2,24);
     unitConversion(3,24);
     unitConversion(4,24);
+
+    //ForLoop UC1
+    function givenExponential(n){
+        let value=2;
+        for (let i = 1; i <= n; i++) {
+            console.log("2^" + i + " = " + value);
+            value *= 2;
+        }    
+    }
+    givenExponential(3);
+    givenExponential(8);
+    givenExponential(6);
