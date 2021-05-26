@@ -141,3 +141,23 @@ console.log("Area of 25 plots in Acres : "
     }
     weekDay(7);
     weekDay(3);
+
+    //Selection UC7
+    function numberUnitCheck(num){
+        if (num ==1)
+        console.log("One's digit")
+        else if (num ==10)
+        console.log("Ten's digit")
+        else if (num ==100)
+        console.log("Hundred's")
+        else if (num ==1000)
+        console.log("Thousand's")
+        else if (num ==10000)
+        console.log("Ten Thousand's")
+        else if (num ==100000)
+        console.log("Lakh's")
+        else
+        console.log("Not a valid number")
+    }
+    numberUnitCheck(1)
+    numberUnitCheck(5000)
