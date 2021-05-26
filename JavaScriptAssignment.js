@@ -235,3 +235,19 @@ console.log("Area of 25 plots in Acres : "
     weekCheck(7);
     weekCheck(2);
     weekCheck(24);
+
+    //Switch UC3
+    function unitCheck(num){
+        switch(num){
+            case 1: console.log("One"); break;
+            case 10: console.log("Ten"); break;
+            case 100: console.log("Hundred"); break;
+            case 1000: console.log("Thousand"); break;
+            case 10000: console.log("Ten Thousand"); break;
+            default: console.log("Invalid Number");
+        }
+    }
+    unitCheck(1);
+    unitCheck(365);
+    unitCheck(10000);
+    
