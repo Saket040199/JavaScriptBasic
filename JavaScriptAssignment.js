@@ -81,12 +81,18 @@ console.log("Area of 25 plots in Acres : "
          ((year%400==0) || (year %4 ==0 && year % 100!==0))
     console.log(year + " is a leap year");
       else 
-    console.log(year + " is not aleap year");
+    console.log(year + " is not a leap year");
     }
-
-
     checkLeapYear(2006);
     checkLeapYear(2024);
     
 
-    
+    //UC2
+    function checkdateandmonth(date){
+        if((date >= new Date("March 20")) && (date <= new Date("June 20")))
+        console.log("true")
+        else
+        console.log("false")
+    }
+    checkdateandmonth(new Date("May 26"))
+    checkdateandmonth(new Date("January 04"))
